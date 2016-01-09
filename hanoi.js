@@ -41,13 +41,7 @@ function towerClicked(event) {
       return;
     }
     else {
-      if (($right_tower.children(':nth-child(1)')).children().length >= 4) {
-        event.stopPropagation();
-        $('.fancy_title').text('You won!')
-      }
-      else {
         paddleMove();
-      }
     }
   }
 }
@@ -69,5 +63,9 @@ function paddleMove() {
     else {
       return;
     }
+  }
+  if (($right_tower.children(':nth-child(1)')).children().length >= 4) {
+    event.stopPropagation();
+    $('.fancy_title').text('You won!')
   }
 }
