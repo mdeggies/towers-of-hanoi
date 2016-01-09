@@ -1,0 +1,104 @@
+.game_board {
+  position: relative;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  overflow: hidden;
+}
+
+.fancy_title {
+  width: 96.5%;
+  height: 100px;
+  background-color: brown;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-family: Geneva;
+  font-weight: bold;
+  color: white;
+  font-size: 60px;
+  padding-top: 20px;
+}
+
+.left_tower {
+  margin: 1px 1px 1px 1px;
+  float: left;
+  position: relative;
+  width: 32%;
+  height: 500px;
+  background-color: green;
+}
+
+.middle_tower {
+  margin: 1px 1px 1px 1px;
+  float: left;
+  width: 32%;
+  height: 500px;
+  background-color: blue;
+}
+
+.right_tower {
+  margin: 1px 1px 1px 1px;
+  float: left;
+  width: 32%;
+  height: 500px;
+  background-color: green;
+}
+
+.base {
+  position: fixed;
+  width: 31.4%;
+  bottom: 6px;
+  background-color: brown;
+  z-index: 10;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.paddles {
+  font-size: 0;
+  line-height: 0;
+  padding-top: 355px;
+}
+
+#p4 {
+  position: relative;
+  width: 75%;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #00ff00;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+#p3 {
+  position: relative;
+  width: 55%;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #00ff00;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+#p2 {
+  position: relative;
+  width: 35%;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #00ff00;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+#p1 {
+  position: relative;
+  width: 15%;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #00ff00;
+  border-radius: 15px;
+  border: 1px solid black;
+}
