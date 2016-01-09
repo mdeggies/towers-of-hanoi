@@ -19,11 +19,6 @@ function init() {
   $left_tower = $('.left_tower');
   $middle_tower = $('.middle_tower');
   $right_tower = $('.right_tower');
-  $paddle1 = $('#paddle-1');
-  $paddle2 = $('#paddle-2');
-  $paddle3 = $('#paddle-3');
-  $paddle4 = $('#paddle-4');
-  $reset = $('#reset');
   $left_tower.on('click', towerClicked);
   $middle_tower.on('click', towerClicked);
   $right_tower.on('click', towerClicked);
