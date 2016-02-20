@@ -3,10 +3,6 @@
 var $left_tower;
 var $middle_tower;
 var $right_tower;
-var $paddle1;
-var $paddle2;
-var $paddle3;
-var $paddle4;
 var $reset;
 
 var tower_selected = false;
